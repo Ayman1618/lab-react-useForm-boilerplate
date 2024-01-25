@@ -21,6 +21,7 @@ form.form{
 input{
   margin-top: 0.1vw;
   background-color: whitesmoke;
+  color: black;
 }
 
 label{
@@ -41,4 +42,12 @@ p{
 
 h1{
   color: black;
+}
+
+#reg{
+  color: rgb(223, 237, 249);
+  background-color: rgb(99, 64, 94);
+  border-radius: 7px;
+  text-align: center;
+  margin-top: -1vw;
 }

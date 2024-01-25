@@ -15,7 +15,7 @@ function App() {
     <div className='app'>
       <h1>Registration Form</h1>
       <form className='form' onSubmit={handleSubmit(onSubmit)}>
-        {submission && <p>Registration Successful!!</p>}
+        {submission && <p id='reg'>Registration Successful!!</p>}
 
         <label>First Name:</label>
         <input type="text" name='firstName' {...register('firstName',
